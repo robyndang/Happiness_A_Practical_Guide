@@ -1,0 +1,29 @@
+NAVIGATION MENU
+
+Full Screen Overlay Responsive Navigation Bar | HTML , CSS & JavaScript
+https://www.youtube.com/watch?v=U-6bo0n-6go&ab_channel=Rustcode
+
+How to hide SVG elements with JavaScript on a button click?
+https://stackoverflow.com/questions/40108280/how-to-hide-svg-elements-with-javascript-on-a-button-click
+
+Fade in fade out on image hover using CSS3?
+https://stackoverflow.com/questions/11375724/fade-in-fade-out-on-image-hover-using-css3
+
+How to place one element on top of another using CSS Grid
+https://www.youtube.com/watch?v=-_ENJ2tRNso&ab_channel=Ashotofcode
+
+PARALLEX 
+
+Background Parallex Effect on Mousemove 
+https://www.youtube.com/watch?v=dqzZ0SbSgHY
+
+HIDE VIDEO CONTROLS 
+https://stackoverflow.com/questions/14161516/html5-video-completely-hide-controls
+
+ANIMATE BORDER RADIUS 
+
+animate circle into square 
+http://www.java2s.com/Tutorials/HTML_CSS/Animation_How_to/Shape/Hover_to_animate_circle_to_square_CSS_Button.html
+
+BOUNCING BALL ANIMATION 
+https://codeburst.io/tutorial-make-a-bouncing-ball-entirely-with-css-1e7e3c853a50
