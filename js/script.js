@@ -22,11 +22,28 @@ function parallax(e) {
   })
 }
 
-/* SCROLL ANIMATON
-function runOnScroll() {
-    if (document.body.scrollTop >= 200) {
-     var flexcontainer = document.getElementsByClassName("flex-container")[0];
-      flexcontainer.style.borderRadius = "0%";
-      }
- };
-window.addEventListener("scroll", runOnScroll); */
+/* TEXT FADE IN */
+const faders = document.querySelectorAll('.big-heading, .small-heading, .sub-heading, .flex-item p, .flex-fullspan p')
+
+const appearOptions = {
+  threshold: 0.5,
+};
+
+const appearOnScroll = new IntersectionObserver (function(
+  entries,
+  appearOnScroll
+) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    }
+  })
+},
+appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
