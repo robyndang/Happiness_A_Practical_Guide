@@ -1,4 +1,4 @@
-/*NAVIGATION MENU*/
+/*NAVIGATION MENU */
 function closeMenu() {
   document .getElementById("navbar") .style .height = "0%";
   document.getElementById("hamburgerbtn").style.display = "block";
