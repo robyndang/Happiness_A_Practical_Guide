@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap');
-
 @font-face {
     font-family: 'NewYork';
     src: url('fonts NewYork.eot');
@@ -15,6 +11,10 @@
     font-weight: 400;
     font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 
@@ -74,7 +74,7 @@ grid-template-areas:
   text-decoration: none;
   font-size: clamp(20px, 5vw, 40px);
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', 'Josefin Slab', serif;
+  font-family: 'NewYork', Didot, serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.04em;
@@ -133,8 +133,8 @@ grid-template-areas:
 
 #moldinghappiness {
   position: absolute;
-  width: clamp(70px, 30vw, 500px);
-  height: clamp(70px, 30vw, 500px);
+  width: clamp(100px, 30vw, 500px);
+  height: clamp(100px, 30vw, 500px);
   top: 5%;
   left: 3%;
   border-radius: 50%;
@@ -190,7 +190,7 @@ opacity: 1;
   font-size: clamp(15px, 12vw, 130px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork','Josefin Slab', serif;
+  font-family: 'NewYork',Didot, serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.04em;
@@ -215,7 +215,7 @@ opacity: 1;
   font-size: clamp(15px, 8vw, 90px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork','Josefin Slab', serif;
+  font-family: 'NewYork',Didot, serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.04em;
@@ -276,7 +276,7 @@ opacity: 1;
   font-size: clamp(15px, 12vw, 100px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork','Josefin Slab', serif;
+  font-family: 'NewYork',Didot, serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.04em;
@@ -314,7 +314,7 @@ opacity: 1;
   font-size: clamp(40px, 5vw, 70px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork','Josefin Slab', serif;
+  font-family: 'NewYork',Didot, serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.04em;
@@ -325,7 +325,7 @@ opacity: 1;
   font-size: clamp(30px, 2.5vw, 60px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork','Josefin Slab', serif;
+  font-family: 'NewYork',Didot, serif;
   font-weight: 400;
   font-style;
   letter-spacing: 0.04em;
@@ -401,7 +401,7 @@ opacity: 1;
   font-size: clamp(30px, 2.2vw, 60px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork','Josefin Slab', serif;
+  font-family: 'NewYork',Didot, serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.04em;
@@ -491,7 +491,7 @@ opacity: 1;
   font-size: clamp(50px, 25vw, 500px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork','Josefin Slab', serif;
+  font-family: 'NewYork',Didot, serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.04em;
