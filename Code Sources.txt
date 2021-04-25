@@ -27,3 +27,12 @@ http://www.java2s.com/Tutorials/HTML_CSS/Animation_How_to/Shape/Hover_to_animate
 
 BOUNCING BALL ANIMATION 
 https://codeburst.io/tutorial-make-a-bouncing-ball-entirely-with-css-1e7e3c853a50
+
+Underline text fade-in when hovering
+https://stackoverflow.com/questions/46119919/fade-in-and-out-underline-when-hovering
+
+Pure CSS Changing text animation
+https://www.youtube.com/watch?v=GhxNhdf0liA&ab_channel=Divinector
+
+fade-in text 
+https://www.youtube.com/watch?v=huVJW23JHKQ&ab_channel=KevinPowell
