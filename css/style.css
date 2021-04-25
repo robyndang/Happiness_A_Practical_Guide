@@ -64,7 +64,7 @@ grid-template-areas:
 
 .menu-column {
   width: 50%;
-  padding-top: 10%;
+  padding-top: 6%;
 }
 
 .menu-item p {
@@ -264,7 +264,7 @@ opacity: 1;
 }
 
 .header-title h1 {
-  font-size: clamp(15px, 12vw, 130px);
+  font-size: clamp(15px, 12vw, 100px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
   font-family: 'NewYork', normal;
