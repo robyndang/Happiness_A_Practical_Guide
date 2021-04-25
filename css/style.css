@@ -6,13 +6,13 @@
 
 @font-face {
     font-family: 'NewYork', normal;
+    src: url('fonts NewYork.eot');
+    src: url('fonts NewYork.eot?#iefix') format('embedded-opentype'),
+         url('fonts NewYork.woff2') format('woff2'),
+         url('fonts NewYork.woff') format('woff'),
+         url('fonts NewYork.ttf')  format('truetype'),
+         url('fonts NewYork.svg#NewYork') format('svg');
     font-weight: 400;
-    src: url('fonts/NewYork.eot');
-    src: url('fonts/NewYork.eot?#iefix') format('embedded-opentype'),
-         url('fonts/NewYork.woff2') format('woff2'),
-         url('fonts/NewYork.woff') format('woff'),
-         url('fonts/NewYork.ttf')  format('truetype'),
-         url('fonts/NewYork.svg#NewYork') format('svg');
 }
 
 *{
@@ -452,7 +452,7 @@ opacity: 1;
 
 @keyframes bounce2 {
   from { transform: translate3d(0, 0, 0);     }
-  to   { transform: translate3d(550px,0, 0); }
+  to   { transform: translate3d(380px,0, 0); }
 }
 
 .NEXT {
