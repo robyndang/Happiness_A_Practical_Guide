@@ -459,11 +459,9 @@ opacity: 1;
 }
 
 /* ANIMATE VIDEO ON SCROLL */
-.scroll-item {
+.sticky-scroll {
   width: 50%;
-  position: relative;
-  top:0;
-  left: 0;
+  padding: 0;
 }
 
 #set-height {
@@ -471,9 +469,8 @@ opacity: 1;
 }
 
 #v0 {
-  position: fixed;
-  width: clamp(100px, 30vw, 500px);
-
+  position: sticky;
+  width: 100%;
   bottom: 0;
   right: 0;
 }
@@ -556,6 +553,10 @@ footer {
   .flex-item {
     width: 100%;
     padding: 10% 5%;
+  }
+
+  .sticky-scroll {
+    width: 100%;
   }
 
   #confetti-front, #confetti-back {
