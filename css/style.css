@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap');
 
 @font-face {
-    font-family: 'NewYork', normal;
+    font-family: 'NewYork';
     src: url('fonts NewYork.eot');
     src: url('fonts NewYork.eot?#iefix') format('embedded-opentype'),
          url('fonts NewYork.woff2') format('woff2'),
@@ -13,6 +13,7 @@
          url('fonts NewYork.ttf')  format('truetype'),
          url('fonts NewYork.svg#NewYork') format('svg');
     font-weight: 400;
+    font-style: normal;
 }
 
 *{
@@ -72,6 +73,8 @@ grid-template-areas:
   font-size: clamp(20px, 5vw, 40px);
   color: rgba(32, 31, 41, 1);
   font-family: 'NewYork';
+  font-style: normal;
+  font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 2em;
   transition: 1s ease-in-out;
@@ -185,7 +188,9 @@ opacity: 1;
   font-size: clamp(15px, 12vw, 130px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', normal;
+  font-family: 'NewYork';
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
 }
@@ -208,7 +213,9 @@ opacity: 1;
   font-size: clamp(15px, 8vw, 90px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', normal;
+  font-family: 'NewYork';
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
 }
@@ -267,7 +274,9 @@ opacity: 1;
   font-size: clamp(15px, 12vw, 100px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', normal;
+  font-family: 'NewYork';
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
 }
@@ -303,7 +312,9 @@ opacity: 1;
   font-size: clamp(40px, 5vw, 70px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', normal;
+  font-family: 'NewYork';
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
 }
@@ -312,7 +323,9 @@ opacity: 1;
   font-size: clamp(30px, 2.5vw, 60px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', normal;
+  font-family: 'NewYork';
+  font-weight: 400;
+  font-style;
   letter-spacing: 0.04em;
   line-height: 1.2em;
 }
@@ -386,7 +399,9 @@ opacity: 1;
   font-size: clamp(30px, 2.2vw, 60px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', normal;
+  font-family: 'NewYork';
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
 }
@@ -474,7 +489,9 @@ opacity: 1;
   font-size: clamp(50px, 25vw, 500px);
   font-weight: 400;
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', normal;
+  font-family: 'NewYork';
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
 }
