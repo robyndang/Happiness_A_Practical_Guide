@@ -559,18 +559,17 @@ footer {
     width: 100%;
   }
 
-  #set-height {
-    display: none;
-  }
-  
   #v0 {
-    position: absolute;
+    position: relative;
   }
 
   #confetti-front, #confetti-back {
     z-index: 1;
     opacity: 50%;
   }
+
+  .header {
+    height: auto;
 }
 
 @media (max-width:600px) and (min-width:0px) {

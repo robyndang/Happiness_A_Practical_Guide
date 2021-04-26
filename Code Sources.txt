@@ -39,3 +39,6 @@ https://www.youtube.com/watch?v=huVJW23JHKQ&ab_channel=KevinPowell
 
 animate while scrolling 
 https://www.youtube.com/watch?v=HiegEfkenXA&ab_channel=DesignCourse
+
+textarea 
+https://stackoverflow.com/questions/18392496/displaying-a-text-area-on-top-of-an-image#:~:text=Set%20position%3A%20relative%20on%20the,to%20the%20textarea%20as%20needed.
