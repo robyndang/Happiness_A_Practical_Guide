@@ -109,6 +109,11 @@
         <h6> WEEK 8 </h6>
         <h1> find your ikigai </h1>
       </div>
+      <br>
+      <div class="progress">
+        <div class="progress-done" data-done="95">
+        </div>
+      </div>
     </div>
     <div class="flex-item-img">
         <img src="img/focusedwork.jpg" alt="concentrating on writing" style="border-radius: 50%;">
@@ -198,7 +203,12 @@
 
   <!--Linking to our JavaScript here-->
   <script src="js/script.js"></script>
+  <script>
+    const progress = document.querySelector('.progress-done');
 
+    progress.style.width = progress.getAttribute('data-done') + '%';
+    progress.style.opacity = 1;
+  </script>
   </body>
 
   </html>

@@ -20,7 +20,7 @@
     </div>
 
   </section>
-  
+
   <!--!!!!!!!!!! NAVIGATION MENU !!!!!!!!!!--->
   <div class="nav-container">
     <span class="menu-icon" id="hamburgerbtn" onclick="openMenu()"><img src="img/hamburger.svg" alt="hamburger menu button"/></span>
@@ -110,6 +110,11 @@
       <div class="header-title">
         <h6> WEEK 4 </h6>
         <h1> take care of your body </h1>
+      </div>
+      <br>
+      <div class="progress">
+        <div class="progress-done" data-done="50">
+        </div>
       </div>
     </div>
 
@@ -274,7 +279,12 @@
 
   <!--Linking to our JavaScript here-->
   <script src="js/script.js"></script>
+  <script>
+    const progress = document.querySelector('.progress-done');
 
+    progress.style.width = progress.getAttribute('data-done') + '%';
+    progress.style.opacity = 1;
+  </script>
   </body>
 
   </html>

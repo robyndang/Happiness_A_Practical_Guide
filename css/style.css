@@ -123,6 +123,28 @@ grid-template-areas:
   }
 }
 
+/* PROGRESS BAR */
+.progress {
+	background-color: #cfcfcf;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: clamp(5px, 10vw, 15px);
+	width: clamp(150px, 80vw, 560px);
+}
+
+.progress-done {
+  background: url("../img/pattern.svg");
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
 /* NAVIGATION MENU */
 .nav-container .menu-icon {
   position: fixed;

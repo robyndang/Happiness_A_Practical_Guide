@@ -4,8 +4,6 @@ window.addEventListener("load", function() {
   loadcontainer.className += " hidden";
 });
 
-
-
 /*NAVIGATION MENU */
 function closeMenu() {
   document .getElementById("navbar") .style .height = "0%";
