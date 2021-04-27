@@ -198,9 +198,8 @@ grid-template-areas:
   text-decoration: none;
   font-size: clamp(20px, 5vw, 40px);
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', Didot, Didot LT STD, Bodoni, Bodoni MT, Calisto MT, Times New Roman, serif;
+  font-family: 'NewYork', 'Yeseva One','Century Gothic', 'CenturyGothic', 'Didot', serif;
   font-style: normal;
-
   letter-spacing: 0.04em;
   line-height: clamp(10px, 5vh, 40px);
   transition: 1s ease-in-out;
@@ -317,7 +316,7 @@ opacity: 1;
   font-size: clamp(15px, 12vw, 130px);
 
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', Didot, Didot LT STD, Bodoni, Bodoni MT, Calisto MT, Times New Roman, serif;
+  font-family: 'NewYork', 'Yeseva One','Century Gothic', 'CenturyGothic', 'Didot', serif;
 
   font-style: normal;
   letter-spacing: 0.04em;
@@ -342,7 +341,7 @@ opacity: 1;
   font-size: clamp(15px, 8vw, 90px);
 
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', Didot, Didot LT STD, Bodoni, Bodoni MT, Calisto MT, Times New Roman, serif;
+  font-family: 'NewYork', 'Yeseva One','Century Gothic', 'CenturyGothic', 'Didot', serif;
   letter-spacing: 0.04em;
   line-height: 1em;
 }
@@ -420,7 +419,7 @@ opacity: 1;
 .header-title h1 {
   font-size: clamp(15px, 12vw, 100px);
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', Didot, Didot LT STD, Bodoni, Bodoni MT, Calisto MT, Times New Roman, serif;
+  font-family: 'NewYork', 'Yeseva One','Century Gothic', 'CenturyGothic', 'Didot', serif;
   font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
@@ -470,7 +469,7 @@ opacity: 1;
 .big-heading {
   font-size: clamp(40px, 5vw, 70px);
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', Didot, Didot LT STD, Bodoni, Bodoni MT, Calisto MT, Times New Roman, serif;
+  font-family: 'NewYork', 'Yeseva One','Century Gothic', 'CenturyGothic', 'Didot', serif;
   font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
@@ -479,7 +478,7 @@ opacity: 1;
 .small-heading {
   font-size: clamp(30px, 2.5vw, 60px);
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', Didot, Didot LT STD, Bodoni, Bodoni MT, Calisto MT, Times New Roman, serif;
+  font-family: 'NewYork', 'Yeseva One','Century Gothic', 'CenturyGothic', 'Didot', serif;
   font-style;
   letter-spacing: 0.04em;
   line-height: 1.2em;
@@ -570,7 +569,7 @@ figcaption, figcaption a {
 .sub-heading {
   font-size: clamp(30px, 2.2vw, 60px);
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', Didot, Didot LT STD, Bodoni, Bodoni MT, Calisto MT, Times New Roman, serif;
+  font-family: 'NewYork', 'Yeseva One','Century Gothic', 'CenturyGothic', 'Didot', serif;
   font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
@@ -677,7 +676,7 @@ figcaption, figcaption a {
 .NEXT-button h1 {
   font-size: clamp(50px, 25vw, 500px);
   color: rgba(32, 31, 41, 1);
-  font-family: 'NewYork', Didot, Didot LT STD, Bodoni, Bodoni MT, Calisto MT, Times New Roman, serif;
+  font-family: 'NewYork', 'Yeseva One','Century Gothic', 'CenturyGothic', 'Didot', serif;
   font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
