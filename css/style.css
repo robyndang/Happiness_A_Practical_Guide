@@ -142,7 +142,7 @@ grid-template-areas:
 	height: 100%;
 	width: 0;
 	opacity: 0;
-	transition: 1s ease 0.3s;
+	transition: 2s ease 0.5s;
 }
 
 /* NAVIGATION MENU */
@@ -756,7 +756,7 @@ footer {
     height: clamp(180px, 90vw, 950px);
     top: 10%;
   }
-  
+
   #HOME-header-text {
     position: absolute;
     z-index: 3;
