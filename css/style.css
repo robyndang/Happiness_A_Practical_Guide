@@ -580,6 +580,7 @@ figcaption, figcaption a {
 }
 
 #journaling {
+  overflow: hidden;
   width: 100%;
   padding-right: clamp(5px, 25%, 500px);
   padding-left: clamp(5px, 25%, 500px);
