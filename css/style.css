@@ -263,6 +263,17 @@ display: none;
 opacity: 1;
 }
 
+#happydance {
+  position: absolute;
+  width: clamp(70px, 20vw, 500px);
+  height: clamp(70px, 20vw, 500px);
+  top: 5%;
+  left: 3%;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+}
+
 #HOME-header-text {
   position: absolute;
   z-index: 3;
@@ -428,6 +439,20 @@ opacity: 1;
   width:100%;
   border-radius: 100vh 100vh 0 0;
   background-color: white;
+  padding: 5% 5% 0 5%;
+}
+
+.flex-container-END {
+  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+
+
+  position: relative;
+  width:100%;
+  background-color: #1f1f29;
   padding: 5% 5% 0 5%;
 }
 
@@ -726,12 +751,12 @@ footer {
 @media (max-width:600px) and (min-width:0px) {
 
   /* HOME HEADER */
-  #moldinghappiness {
+  #moldinghappiness, #happydance {
     width: clamp(180px, 90vw, 950px);
     height: clamp(180px, 90vw, 950px);
     top: 10%;
   }
-
+  
   #HOME-header-text {
     position: absolute;
     z-index: 3;
