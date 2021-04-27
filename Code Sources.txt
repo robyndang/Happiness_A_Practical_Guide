@@ -3,7 +3,7 @@ NAVIGATION MENU
 Full Screen Overlay Responsive Navigation Bar | HTML , CSS & JavaScript
 https://www.youtube.com/watch?v=U-6bo0n-6go&ab_channel=Rustcode
 
-How to hide SVG elements with JavaScript on a button click?
+Hide SVG elements with JS on a button click
 https://stackoverflow.com/questions/40108280/how-to-hide-svg-elements-with-javascript-on-a-button-click
 
 Fade in fade out on image hover using CSS3?
@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=-_ENJ2tRNso&ab_channel=Ashotofcode
 
 PARALLEX 
 
-Background Parallex Effect on Mousemove 
+Background parallex effect on mousemove 
 https://www.youtube.com/watch?v=dqzZ0SbSgHY
 
 HIDE VIDEO CONTROLS 
@@ -31,7 +31,7 @@ https://codeburst.io/tutorial-make-a-bouncing-ball-entirely-with-css-1e7e3c853a5
 Underline text fade-in when hovering
 https://stackoverflow.com/questions/46119919/fade-in-and-out-underline-when-hovering
 
-Pure CSS Changing text animation
+Pure CSS changing text animation
 https://www.youtube.com/watch?v=GhxNhdf0liA&ab_channel=Divinector
 
 fade-in text 

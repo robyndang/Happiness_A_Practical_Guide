@@ -6,24 +6,147 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
-
 <body>
-    <!-- <div id="set-height"></div>
-      <video id="v0", tabindex="0", autobuffer preload>
-        <source type='video/mp4;' src="RobynDang.Day1.mp4">
-        </source>
-      </video>
-    -->
-    <div id="moldinghappiness">
-      <video autoplay loop="autoplay">
-        <source src="img/moldinghappiness.mp4" alt="abstract representation of happiness" type="video/mp4"/>
-      </video>
+
+  <!--!!!!!!!!!! NAVIGATION MENU !!!!!!!!!!--->
+  <div class="nav-container">
+    <span class="menu-icon" id="hamburgerbtn" onclick="openMenu()"><img src="img/hamburger.svg" alt="hamburger menu button"/></span>
+  </div>
+
+  <div class="menu-container" id="navbar">
+    <span class="closebtn" onclick="closeMenu()"><img src="img/close.svg" alt="close hamburger menu"></span>
+
+    <div class="menu-column">
+      <div class="menu-item">
+        <p>HOME</p>
+        <a href="index.html">
+          <img src="img/circled.svg" alt="hovering over HOME"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p>1. THOUGHTS</p>
+        <a href="1.THOUGHTS.html">
+          <img src="img/circled.svg" "hovering over THOUGHTS"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p>2. SLEEP</p>
+        <a href="2.SLEEP.html">
+          <img src="img/circled.svg" alt="hovering over SLEEP"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p>3. AESTHETICS</p>
+        <a href="3.AESTHETICS.html">
+          <img src="img/circled.svg" alt="hovering over AESTHETICS"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p>4. BODY</p>
+        <a href="4.BODY.html">
+          <img src="img/circled.svg" alt="hovering over BODY"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p>5. SOCIAL MEDIA</p>
+        <a href="5.SOCIAL MEDIA.html">
+          <img src="img/circled.svg" alt="hovering over SOCIAL MEDIA"/>
+        </a>
+      </div>
     </div>
 
+    <div class="menu-column">
+      <div class="menu-item">
+        <p>6. MEDITATION</p>
+        <a href="6.MEDITATION.html">
+          <img src="img/circled.svg" alt="hovering over MEDITATION"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p>7. GIVE</p>
+        <a href="7.GIVE.html">
+          <img src="img/circled.svg" alt="hovering over MONEY"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p>8. IKIGAI</p>
+        <a href="8.IKIGAI.html">
+          <img src="img/circled.svg" alt="hovering over IKIGAI"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p>END</p>
+        <a href="END.html">
+          <img src="img/circled.svg" alt="hovering over END"/>
+        </a>
+      </div>
+      <div class="menu-item">
+        <p style="color:#79778f;">code sources</p>
+        <a href="CODE SOURCES.html">
+          <img src="img/circled.svg" alt="hovering over CODE SOURCES"/>
+        </a>
+      </div>
+    </div>
 
+  </div>
+
+
+  <!--!!!!!!!!!! HEADER !!!!!!!!!!--->
+  <section class="HOME-header">
+    <img id="confetti-front" src="img/confetti_front.png" alt="confetti background" data-speed="-3" class="layer">
+
+    <div id="HOME-header-text">
+      <div id="happiness-text">
+        <h1 > CONGRATS!</h1>
+      </div>
+      <div id="practical-guide">
+        <h3> you did it! </h3>
+      </div>
+    </div>
+
+    <div id="moldinghappiness">
+      <img src="img/congrats.gif" alt="dancing happily" >
+    </div>
+
+    <img id="confetti-back" src="img/confetti_back.png" alt="confetti background" data-speed="5" class="layer">
+
+    <div class="bouncing-ball">
+    </div>
+  </section>
+
+<!--!!!!!!!!!! CONTENT !!!!!!!!!!--->
+
+  <div class="flex-container">
+
+    <div class="flex-item">
+      <h1 class="big-heading">
+        you
+      </h1>
+      <h3 id="pronunciation">
+        /yo͞o,yə/
+      </h3><br>
+      <h3 id="noun">
+        pronoun
+      </h3><br>
+      <p>
+        Congratulations, you’ve made it to the end of the guide! After eight long weeks of hard work, self-reflection, and many many breakdowns I’m sure, you’ve hopefully come out of this a little happier. When things get tough and the negative thoughts pour in again, feel free to come back and remember how strong and capable you are. This is farewell! But I hope you continue to find what fulfills your soul and brings meaning to your life.
+      </p>
+      <br><br><br><br>
+      <h1 class="big-heading">
+        - THE END -
+      </h1>
+
+    </div>
+
+    <div class="flex-item-img">
+        <img src="img/sunglasses.gif" alt="putting sunglasses on cooly">
+        <figcaption> both illustrations by <a href="http://www.abbeylossing.com/" target="_blank">Abbey Lossing</a></figcaption>
+    </div>
+
+  <!--Linking to our JavaScript here-->
   <script src="js/script.js">
   </script>
 
-</body>
+  </body>
 
-</html>
+  </html>
