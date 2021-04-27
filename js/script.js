@@ -1,3 +1,11 @@
+/* LOADING PAGE */
+window.addEventListener("load", function() {
+  const loadcontainer = document.querySelector(".loadcontainer");
+  loadcontainer.className += " hidden";
+});
+
+
+
 /*NAVIGATION MENU */
 function closeMenu() {
   document .getElementById("navbar") .style .height = "0%";
