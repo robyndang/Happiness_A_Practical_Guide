@@ -129,15 +129,15 @@ grid-template-areas:
 /* MENU ITEM HOVER EFFECT*/
 .menu-item img {
     opacity: 0;
-    transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 .menu-item img:hover {
     opacity: 1.0;
-    transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
+    transition: opacity .55s ease-in-out;
 }
 
 /* HOME HEADER */
@@ -502,8 +502,8 @@ figcaption, figcaption a {
 }
 
 #v0 {
-  position: sticky;
   position: -webkit-sticky;
+  position: sticky;
   width: 100%;
   bottom: 0;
   right: 0;
