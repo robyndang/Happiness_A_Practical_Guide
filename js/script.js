@@ -53,12 +53,12 @@ var mq = window.matchMedia( "(min-width: 1024px)" );
 if (mq.matches) {
   var frameNumber = 0, // start video at frame 0
       // lower numbers = faster playback
-      playbackConst = 500,
+      playbackConst = 130,
       // get page height from video duration
       setHeight = document.getElementById("set-height"),
       // select video element
       vid = document.getElementById('v0');
-      // var vid = $('#v0')[0]; // jquery option
+      // var vid = $('#v0')[0]; // jquery
 
   // dynamically set the page height according to video length
   vid.addEventListener('loadedmetadata', function() {
