@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'NewYork', normal;
-    src: url('fonts/NewYork.eot');
-    src: url('fonts/NewYork.eot?#iefix') format('embedded-opentype'),
-         url('fonts/NewYork.woff2') format('woff2'),
-         url('fonts/NewYork.woff') format('woff'),
-         url('fonts/NewYork.ttf')  format('truetype'),
-         url('fonts/NewYork.svg#NewYork') format('svg');
+    src: url('Happiness_A_Practical_Guide/fonts/NewYork.eot');
+    src: url('Happiness_A_Practical_Guide/fonts/NewYork.eot?#iefix') format('embedded-opentype'),
+         url('Happiness_A_Practical_Guide/fonts/NewYork.woff2') format('woff2'),
+         url('Happiness_A_Practical_Guide/fonts/NewYork.woff') format('woff'),
+         url('Happiness_A_Practical_Guide/fonts/NewYork.ttf')  format('truetype'),
+         url('Happiness_A_Practical_Guide/fonts/NewYork.svg#NewYork') format('svg');
     font-weight: 400;
 }
 
@@ -620,7 +620,7 @@ figcaption, figcaption a {
 /* ANIMATE VIDEO ON SCROLL */
 .sticky-scroll {
   width: 50%;
-  padding: 0;
+  padding: 5%;
 }
 
 #set-height {

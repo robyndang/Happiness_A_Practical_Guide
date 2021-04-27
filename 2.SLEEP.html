@@ -210,7 +210,7 @@
 
     <div class= "sticky-scroll">
       <div id="set-height"></div>
-        <video id="v0" style="border-radius: 50%;">
+        <video id="v0" style="border-radius: 50%;" tabindex="0", autobuffer preload>>
           <source src="img/moon-phases.mp4" alt="phases of the moon" type="video/mp4"/>
         </video>
           <figcaption> video sourced from <a href="https://www.youtube.com/watch?v=alg1TLbSOZc&ab_channel=KaffeeStrickliesel" target="_blank">here</a></figcaption>
@@ -252,8 +252,7 @@
   </footer>
 
   <!--Linking to our JavaScript here-->
-  <script src="js/script.js">
-  </script>
+  <script src="js/script.js"></script>
   <script>
     const progress = document.querySelector('.progress-done');
 
