@@ -267,7 +267,7 @@ grid-template-areas:
     -webkit-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
 }
-.menu-item img, .menu-item-d img:hover {
+.menu-item img:hover, .menu-item-d img:hover {
     opacity: 1.0;
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
