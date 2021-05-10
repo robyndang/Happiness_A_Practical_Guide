@@ -28,6 +28,20 @@ function parallax(e) {
   })
 }
 
+/* ANIMATE BORDER RADIUS */
+var hHeight = document.querySelector(".height"),
+  borderTopLeftRadius = 100;
+
+var hHeight = document.querySelector(".height")
+  borderTopRightRadius = 100;
+
+window.scroll(function () {
+  var scrollTop = document.querySelector(window).scrollTop(),
+    percent = 50 - ((50 * scrollTop) / hHeight) * 5;
+    document.querySelector(".flex-container").css("border-top-left-radius", percent + "%");
+    document.querySelector(".flex-container").css("border-top-right-radius", percent + "%");
+});
+
 /* TEXT FADE IN */
 const faders = document.querySelectorAll('.big-heading, .small-heading, .sub-heading, .flex-item p, .flex-fullspan p')
 
@@ -59,18 +73,11 @@ var mq = window.matchMedia( "(min-width: 1024px)" );
 if (mq.matches) {
   var frameNumber = 0, // start video at frame 0
       // lower numbers = faster playback
-      playbackConst = 130,
-      // get page height from video duration
-      setHeight = document.getElementById("set-height"),
+      playbackConst = 125,
+      // set page height
+      setHeight = document.getElementById("set-height").style.height = "250vh";
       // select video element
       vid = document.getElementById('v0');
-      // var vid = $('#v0')[0]; // jquery
-
-  // dynamically set the page height according to video length
-  vid.addEventListener('loadedmetadata', function() {
-    setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
-  });
-
 
   // Use requestAnimationFrame for smooth playback
   function scrollPlay(){

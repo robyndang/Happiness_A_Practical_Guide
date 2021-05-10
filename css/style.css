@@ -213,7 +213,7 @@ grid-template-areas:
 
 .menu-column {
   width: 50%;
-  padding-top: clamp(30px, 20vh, 100px);
+  padding-top: clamp(40px, 10vh, 70px);
   padding-right: clamp(10px, 5vw, 100px);
   padding-left: clamp(10px, 5vw, 100px);
 }
@@ -225,7 +225,7 @@ grid-template-areas:
   font-family: 'NewYork', 'Yeseva One',Century Gothic, CenturyGothic, Didot, serif;
   font-style: normal;
   letter-spacing: 0.04em;
-  line-height: clamp(10px, 5vh, 40px);
+  line-height: clamp(5px, 3vh, 20px);
   transition: 1s ease-in-out;
   text-align: center;
 }
@@ -237,7 +237,7 @@ grid-template-areas:
   font-family: 'NewYork', 'Yeseva One',Century Gothic, CenturyGothic, Didot, serif;
   font-style: normal;
   letter-spacing: 0.04em;
-  line-height: clamp(10px, 5vh, 40px);
+  line-height: clamp(5px, 3vh, 20px);
   transition: 1s ease-in-out;
   text-align: center;
 }
@@ -603,7 +603,7 @@ figcaption, figcaption a {
   align-content: center;
   position: relative;
   width:100%;
-  background: url("../img/papertexture.jpg");
+  background: url("../img/papertexture.svg");
   padding: 0 5%
 }
 
@@ -675,6 +675,41 @@ figcaption, figcaption a {
   bottom: 0;
   right: 0;
   border-radius: 50%;
+}
+
+/* DRESS UP GAME */
+.flex-item-game {
+  width: 50%;
+}
+
+.game-images {
+  position: absolute;
+  display: flex;
+  width: 50%;
+}
+
+.game-images img {
+  position: absolute;
+  display: flex;
+  width: 50%;
+}
+
+.game-buttons ul{
+	list-style-type: none;
+}
+
+character {
+z-index: -1000;
+}
+
+.shirt{
+	visibility:hidden;
+  z-index: 2;
+}
+
+.pant{
+	visibility:hidden;
+  z-index: 1;
 }
 
 /* NEXT */
