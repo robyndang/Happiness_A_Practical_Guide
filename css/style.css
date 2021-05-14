@@ -607,6 +607,11 @@ figcaption, figcaption a {
   padding: 0 5%
 }
 
+.flex-phone{
+  width: 50%;
+  padding: 10% 14%;
+}
+
 .sub-heading {
   font-size: clamp(30px, 2.2vw, 60px);
   color: rgba(32, 31, 41, 1);
@@ -614,6 +619,14 @@ figcaption, figcaption a {
   font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1em;
+}
+
+.moonphases {
+  padding: 0 5% 15% 5%;
+}
+
+.moonphases img {
+  border-radius: 50em;
 }
 
 #journaling {
@@ -679,27 +692,45 @@ figcaption, figcaption a {
 
 /* DRESS UP GAME */
 .flex-item-game {
+  position: relative;
   width: 50%;
+  padding: 5%;
 }
 
-.game-images {
-  position: absolute;
+.flex-item-game ul{
   display: flex;
-  width: 50%;
-}
-
-.game-images img {
-  position: absolute;
-  display: flex;
-  width: 50%;
-}
-
-.game-buttons ul{
+  flex-wrap: wrap;
 	list-style-type: none;
 }
 
-character {
-z-index: -1000;
+.flex-item-game button {
+  display: inline-block;
+  color: #eeeeee;
+  background-color: #0a7354;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: clamp(3px, 3vw, 7px);
+  width: clamp(50px, 37vw, 120px);
+  margin: clamp(3px, 3vw, 7px);
+}
+
+.game-images {
+  width: clamp(200px, 35vw, 500px);
+  height: clamp(244px, 35vw, 609px);
+  overflow: hidden;
+}
+
+.game-images img {
+  object-fit: contain;
+  display:inline-block;
+  width: clamp(200px, 35vw, 500px);
+  height: clamp(244px, 35vw, 609px);
+  position: absolute;
+}
+
+#character {
+z-index: 1;
 }
 
 .shirt{
@@ -707,9 +738,19 @@ z-index: -1000;
   z-index: 2;
 }
 
-.pant{
+.hair{
 	visibility:hidden;
-  z-index: 1;
+  z-index: 3;
+}
+
+.extra{
+	visibility:hidden;
+  z-index: 4;
+}
+
+.earring{
+	visibility:hidden;
+  z-index: 5;
 }
 
 /* NEXT */
@@ -797,7 +838,16 @@ footer {
     padding: 10% 5%;
   }
 
+  .flex-item-game {
+    width: 100%;
+  }
+
   .flex-item-img{
+    width: 100%;
+    padding: 10% 5%;
+  }
+
+  .flex-phone{
     width: 100%;
     padding: 10% 5%;
   }
@@ -812,8 +862,7 @@ footer {
   }
 
   .sticky-scroll {
-    width: 100%;
-    padding: 10%;
+    display: none;
   }
 
   .bouncing-ball-pages {
@@ -822,11 +871,6 @@ footer {
 
   #set-height {
     display: none;
-  }
-
-  #v0 {
-    position: relative;
-    autoplay: loops;
   }
 
   #confetti-front, #confetti-back {
@@ -871,5 +915,11 @@ footer {
       from { transform: translate3d(0, 0, 0);     }
       to   { transform: translate3d(200px,0, 0); }
     }
+  }
+}
+
+@media (min-width: 1024px) {
+  .moonphases {
+    display: none;
   }
 }

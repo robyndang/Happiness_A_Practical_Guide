@@ -25,18 +25,25 @@ function ImageSwitcher(choices, i) {
   }
 }
 
-  var pants = $(".pant");
   var shirts = $(".shirt");
-  var backgrounds = $(".bg");
+  var earrings = $(".earring");
+  var hairs = $(".hair");
+  var extras = $(".extra");
 
   var shirt_picker = new ImageSwitcher(shirts);
-  document.getElementById("shirt_button").onclick = function() { shirt_picker.Next(); };
+  document.getElementById("shirt_button").onclick = function()
+  {shirt_picker.Next(); };
 
-  var pants_picker = new ImageSwitcher(pants);
-  document.getElementById("pant_button").onclick = function() {pants_picker.Next(); };
+  var earring_picker = new ImageSwitcher(earrings);
+  document.getElementById("earring_button").onclick = function()
+  {earring_picker.Next(); };
 
-  var bg_picker = new ImageSwitcher(backgrounds);
-  document.getElementById("bg_button").onclick = function() {bg_picker.Next(); };
+  var hair_picker = new ImageSwitcher(hairs);
+  document.getElementById("hair_button").onclick = function()
+  {hair_picker.Next(); };
+
+  var extra_picker = new ImageSwitcher(extras);
+  document.getElementById("extra_button").onclick = function() {extra_picker.Next(); };
 
 });
 
