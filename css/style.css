@@ -716,16 +716,16 @@ figcaption, figcaption a {
 }
 
 .game-images {
-  width: clamp(200px, 35vw, 500px);
-  height: clamp(244px, 35vw, 609px);
+  width: clamp(300px, 40vw, 500px);
+  height: clamp(365px, 40vw, 609px);
   overflow: hidden;
 }
 
 .game-images img {
   object-fit: contain;
   display:inline-block;
-  width: clamp(200px, 35vw, 500px);
-  height: clamp(244px, 35vw, 609px);
+  width: clamp(300px, 40vw, 500px);
+  height: clamp(365px, 40vw, 609px);
   position: absolute;
 }
 
@@ -840,6 +840,7 @@ footer {
 
   .flex-item-game {
     width: 100%;
+    padding: 10% 5%; 
   }
 
   .flex-item-img{
