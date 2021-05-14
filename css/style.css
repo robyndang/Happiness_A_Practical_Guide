@@ -225,7 +225,7 @@ grid-template-areas:
   font-family: 'NewYork', 'Yeseva One',Century Gothic, CenturyGothic, Didot, serif;
   font-style: normal;
   letter-spacing: 0.04em;
-  line-height: clamp(5px, 3vh, 20px);
+  line-height: clamp(15px, 5vh, 20px);
   transition: 1s ease-in-out;
   text-align: center;
 }
@@ -237,7 +237,7 @@ grid-template-areas:
   font-family: 'NewYork', 'Yeseva One',Century Gothic, CenturyGothic, Didot, serif;
   font-style: normal;
   letter-spacing: 0.04em;
-  line-height: clamp(5px, 3vh, 20px);
+  line-height: clamp(15px, 5vh, 20px);
   transition: 1s ease-in-out;
   text-align: center;
 }
@@ -840,7 +840,7 @@ footer {
 
   .flex-item-game {
     width: 100%;
-    padding: 10% 5%; 
+    padding: 10% 5%;
   }
 
   .flex-item-img{
