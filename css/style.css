@@ -157,9 +157,9 @@ grid-template-areas:
   z-index: 50;
 }
 
-.menu-icon img{
-  width: clamp(20px, 5vw, 45px);
-  height: clamp(20px, 5vw, 45px);
+.menu-icon img {
+  width: clamp(30px, 5vw, 45px);
+  height: clamp(30px, 5vw, 45px);
 }
 
 .menu-container .closebtn {
@@ -172,8 +172,8 @@ grid-template-areas:
 }
 
 .closebtn img{
-  width: clamp(20px, 5vw, 45px);
-  height: clamp(20px, 5vw, 45px);
+  width: clamp(30px, 5vw, 45px);
+  height: clamp(30px, 5vw, 45px);
 }
 
 .menu-container {
@@ -225,7 +225,7 @@ grid-template-areas:
   font-family: 'NewYork', 'Yeseva One',Century Gothic, CenturyGothic, Didot, serif;
   font-style: normal;
   letter-spacing: 0.04em;
-  line-height: clamp(15px, 5vh, 20px);
+  line-height: clamp(20px, 100vh, 35px);
   transition: 1s ease-in-out;
   text-align: center;
 }
@@ -237,7 +237,7 @@ grid-template-areas:
   font-family: 'NewYork', 'Yeseva One',Century Gothic, CenturyGothic, Didot, serif;
   font-style: normal;
   letter-spacing: 0.04em;
-  line-height: clamp(15px, 5vh, 20px);
+  line-height: clamp(20px, 100vh, 35px);
   transition: 1s ease-in-out;
   text-align: center;
 }
@@ -360,8 +360,8 @@ opacity: 1;
 
 #happiness-text img {
   position: relative;
-  height: 5%;
-  width: 5%;
+  height: 9%;
+  width: 9%;
 }
 
 #practical-guide {
@@ -370,6 +370,12 @@ opacity: 1;
   align-items: center;
   align-self: center;
   align-content: center;
+}
+
+#practical-guide img {
+  position: relative;
+  height: clamp(1em, 5vw, 4em);
+  width: clamp(1em, 5vw, 4em);
 }
 
 #practical-guide h3 {
@@ -610,6 +616,11 @@ figcaption, figcaption a {
 .flex-phone{
   width: 50%;
   padding: 10% 14%;
+  border-radius: 2em;
+}
+
+.flex-phone video{
+  border-radius: 1em;
 }
 
 .sub-heading {
@@ -652,22 +663,22 @@ figcaption, figcaption a {
 
 @keyframes animate{
   0% {
-    content: '(positive trait)';
+    content: '(+ trait)';
   }
   20% {
-    content: '(positive trait)';
+    content: '(+ trait)';
   }
   40% {
-    content: 'imaginative';
+    content: 'creative';
   }
   60% {
-    content: 'disciplined';
+    content: 'clever';
   }
   80% {
-    content: 'resourceful';
+    content: 'helpful';
   }
   100% {
-    content: 'intelligent';
+    content: 'studious';
   }
 }
 
@@ -707,12 +718,11 @@ figcaption, figcaption a {
   display: inline-block;
   color: #eeeeee;
   background-color: #0a7354;
-  border: none;
+  border: 2px solid white;
   border-radius: 10px;
   text-align: center;
   padding: clamp(3px, 3vw, 7px);
   width: clamp(50px, 37vw, 120px);
-  margin: clamp(3px, 3vw, 7px);
 }
 
 .game-images {
