@@ -309,12 +309,6 @@ opacity: 1;
   z-index: 2;
 }
 
-#HOME-header-text {
-  position: absolute;
-  z-index: 3;
-  padding: 0 10%;
-}
-
 #confetti-front {
   position: absolute;
   z-index: 4;
@@ -385,6 +379,12 @@ opacity: 1;
   font-family: 'NewYork', 'Yeseva One',Century Gothic, CenturyGothic, Didot, serif;
   letter-spacing: 0.04em;
   line-height: 1em;
+}
+
+#HOME-header-text {
+  position: absolute;
+  z-index: 3;
+  padding: 0 10%;
 }
 
 #HOME-header-text h4 {
