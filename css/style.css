@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-
 @font-face {
-    font-family: 'NewYork', normal;
-    src: url('Happiness_A_Practical_Guide/fonts/NewYork.eot');
-    src: url('Happiness_A_Practical_Guide/fonts/NewYork.eot?#iefix') format('embedded-opentype'),
-         url('Happiness_A_Practical_Guide/fonts/NewYork.woff2') format('woff2'),
-         url('Happiness_A_Practical_Guide/fonts/NewYork.woff') format('woff'),
-         url('Happiness_A_Practical_Guide/fonts/NewYork.ttf')  format('truetype'),
-         url('Happiness_A_Practical_Guide/fonts/NewYork.svg#NewYork') format('svg');
-    font-weight: 400;
+    font-family: 'NewYork';
+    src: url('fonts/NewYork.eot');
+    src: url('fonts/NewYork.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NewYork.woff2') format('woff2'),
+        url('fonts/NewYork.woff') format('woff'),
+        url('fonts/NewYork.ttf') format('truetype'),
+        url('fonts/NewYork.svg#NewYork') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -62,7 +62,7 @@ grid-template-areas:
 
 .loader {
   display: flex;
-  width: 50%;
+  width: 35%;
   height: 5em;
   position: relative;
   animation: loader 2s infinite ease;
